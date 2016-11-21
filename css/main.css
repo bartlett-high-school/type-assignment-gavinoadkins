@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'abeezeeregular';
-    src: url('abeezee-regular-webfont.woff2') format('woff2'),
-         url('abeezee-regular-webfont.woff') format('woff');
+    src: url('../fonts/abeezee-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abeezee-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'communistregular';
-    src: url('communis-webfont.woff2') format('woff2'),
-         url('communis-webfont.woff') format('woff');
+    src: url('../fonts/communis-webfont.woff2') format('woff2'),
+         url('../fonts/communis-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -45,29 +45,29 @@ body {
 }
 
 h1 {
-font-family: 'abeezeeregular';
+font-family: 'abeezeeregular', sans-serif;
 }
 
-h2 {font-family: 'abeezeeregular';
-
-}
-
-h3 {font-family: 'abeezeeregular';
+h2 {font-family: 'abeezeeregular', sans-serif;
 
 }
 
-h4 {font-family: 'abeezeeregular';
+h3 {font-family: 'abeezeeregular', sans-serif;
 
 }
 
-h5 {font-family: 'abeezeeregular';
+h4 {font-family: 'abeezeeregular', sans-serif;
+
+}
+
+h5 {font-family: 'abeezeeregular', sans-serif
 
 }
 
 h6 {
-font-family: 'abeezeeregular';
+font-family: 'abeezeeregular', sans-serif;
 }
 
 p {
- font-family: 'communistregular';
+ font-family: 'communistregular', serif;
 }
